@@ -676,6 +676,10 @@
      * HERO
      */
   
+     .hero { 
+      --section-padding: 320px; 
+      background-position: center;
+    }
     .hero .container { max-width: unset; }
   
     .hero-content {
@@ -793,7 +797,10 @@
      * HERO
      */
   
-    .hero { --section-padding: 120px; }
+    .hero { 
+      --section-padding: 320px; 
+      background-position: center;
+    }
   
     .hero .section-text { margin-block-end: 30px; }
   
@@ -947,6 +954,7 @@
     .hero {
       text-align: left;
       padding-block-end: 80px;
+      background-position: top;
     }
   
     .hero .container {
@@ -1070,7 +1078,7 @@
      */
   
     .container,
-    .hero .container { max-width: 1140px; }
+    .hero .container { min-width: 1140px; }
   
     .btn { padding: 18px 36px; }
   
@@ -1078,7 +1086,7 @@
 
     .logo img { 
       position: absolute;
-      top: 60%;
+      top: 100%;
       left: 20%;
       transform: translate(-50%, -50%);
       width: 300px; 
@@ -1094,7 +1102,7 @@
   
     .navbar-list { 
       position: absolute;
-      left: 60%;
+      left: 50%;
       display: flex;
      }
 
@@ -1114,7 +1122,12 @@
      * HERO
      */
   
-    .hero { padding-block: 250px 180px; }
+    
+
+    .hero { 
+      padding-block: 250px;
+      background-position: center;
+    }
   
     .hero .container { grid-template-columns: 1fr 0.9fr; }
   
@@ -1207,7 +1220,7 @@
    * responsive for large than 1400px screen
    */
   
-  @media (min-width: 1400px) {
+  @media (min-width: 1600px) {
   
     /**
      * CUSTOM PROPERTY
@@ -1258,7 +1271,7 @@
     }
     .navbar-list { 
       position: absolute;
-      left: 60%;
+      left: 45%;
       display: flex;
      }
 
