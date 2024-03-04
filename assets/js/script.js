@@ -1,15 +1,18 @@
 'use strict';
 
 
+////////////////////////////////////////////////////////////////
+//Intersection Service
 
-/**
- * MOBILE NAVBAR TOGGLE
- */
-
-const navbar = document.querySelector("[data-navbar]");
-const navToggler = document.querySelector("[data-nav-toggler]");
-
-navToggler.addEventListener("click", function () {
-  navbar.classList.toggle("active");
-  this.classList.toggle("active");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if(entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }else{
+      entry.target.classList.remove('show');
+    }
+  });
 });
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
