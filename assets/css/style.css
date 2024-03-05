@@ -451,7 +451,7 @@
   
   .hidden{
     opacity: 0;
-    transition: all 2s;
+    transition: all 3s;
   }
 
   .show{
@@ -719,6 +719,16 @@
      * ABOUT
      */
   
+     .about,
+    .about .section-title { 
+      text-align: center;
+      --section-padding: 120px; 
+      background-position: -300px;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
     .about-list {
       grid-template-columns: 1fr 1fr;
       gap: 20px;
@@ -807,7 +817,7 @@
      */
   
     .hero { 
-      --section-padding: 320px; 
+      --section-padding: 220px; 
       background-position: 55% -300px;
     }
 
@@ -842,8 +852,18 @@
      * ABOUT
      */
      
-    .about-banner { max-width: max-content; }
   
+  
+     .about,
+     .about .section-title { 
+       text-align: center;
+       --section-padding: 120px; 
+       background-position: -200px;
+       background-size: cover;
+       background-attachment: fixed;
+     }
+     
+
     .about-banner,
     .about .section-text { margin-inline: auto; }
   
@@ -965,6 +985,7 @@
       text-align: left;
       padding-block-end: 80px;
       background-position: 55% -300px;
+      --section-padding: 100px;
     }
 
    
@@ -1016,14 +1037,22 @@
     }
   
     .about,
-    .about .section-title { text-align: left; }
+    .about .section-title { 
+      text-align: center;
+      --section-padding: 120px; 
+      background-position: 55% -300px;
+      background-size: cover;
+      background-attachment: fixed;
+    }
   
     .about .container {
-      grid-template-columns: 1fr 0.75fr;
       gap: 30px;
     }
   
-    .about .section-subtitle { margin-inline: 0; }
+    .about .section-subtitle {
+      color: var(--international-orange-engineering);
+      margin-inline: auto; 
+    }
   
     .about-banner,
     .about-banner .w-100 { margin-inline: auto 0; }
@@ -1039,7 +1068,6 @@
       left: 0;
       width: 50%;
       height: 100%;
-      background-image: url('../images/about-abs-banner.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: right;
@@ -1137,7 +1165,7 @@
     
 
     .hero { 
-      padding-block: 250px;
+      padding-block: 140px;
       background-position: 55% -300px;
     }
   
@@ -1318,7 +1346,6 @@
   
     .about::before { width: 55%; }
   
-    .about-banner .w-100 { width: 50%; }
   
   
   
