@@ -492,7 +492,8 @@
   }
   
   .about-item:hover {
-    background-color: var(--international-orange-engineering);
+    color: #001F3F;
+    background-color: #fff;
     transform: translateY(-8px);
   }
   
@@ -728,6 +729,11 @@
       background-attachment: fixed;
     }
 
+    .about .section-subtitle {
+      color: var(--international-orange-engineering);
+      margin-inline: auto; 
+    }
+
 
     .about-list {
       grid-template-columns: 1fr 1fr;
@@ -862,6 +868,11 @@
        background-size: cover;
        background-attachment: fixed;
      }
+
+     .about .section-subtitle {
+      color: var(--international-orange-engineering);
+      margin-inline: auto; 
+    }
      
 
     .about-banner,
@@ -1035,6 +1046,10 @@
       position: relative;
       z-index: 1;
     }
+    .about .section-subtitle {
+      color: var(--international-orange-engineering);
+      margin-inline: auto; 
+    }
   
     .about,
     .about .section-title { 
@@ -1048,11 +1063,7 @@
     .about .container {
       gap: 30px;
     }
-  
-    .about .section-subtitle {
-      color: var(--international-orange-engineering);
-      margin-inline: auto; 
-    }
+
   
     .about-banner,
     .about-banner .w-100 { margin-inline: auto 0; }
