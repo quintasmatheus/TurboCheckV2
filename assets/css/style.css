@@ -635,7 +635,7 @@
    * responsive for large than 575px screen
    */
   
-  @media (min-width: 400px) {
+  @media (min-width: 250px) {
   
     /**
      * CUSTOM PROPERTY
@@ -684,16 +684,18 @@
      */
   
      .hero { 
-      --section-padding: 320px; 
-      background-position: center;
+      --section-padding: 120px; 
+      background-position: 55% -300px;
     }
+    
     .hero .container { max-width: unset; }
   
     .hero-content {
       max-width: 520px;
       margin-inline: auto;
     }
-  
+
+
     .hero .section-text { font-size: 1.5rem; }
   
   
@@ -806,8 +808,9 @@
   
     .hero { 
       --section-padding: 320px; 
-      background-position: center;
+      background-position: 55% -300px;
     }
+
   
     .hero .section-text { margin-block-end: 30px; }
   
@@ -907,7 +910,7 @@
       top: 50%;
       left: 20%;
       transform: translate(-50%, -50%);
-      width: 300px; 
+      width: 200px; 
     }
   
   
@@ -961,8 +964,10 @@
     .hero {
       text-align: left;
       padding-block-end: 80px;
-      background-position: top;
+      background-position: 55% -300px;
     }
+
+   
   
     .hero .container {
       max-width: 960px;
@@ -1109,7 +1114,7 @@
   
     .navbar-list { 
       position: absolute;
-      left: 50%;
+      left: 40%;
       display: flex;
      }
 
@@ -1133,7 +1138,7 @@
 
     .hero { 
       padding-block: 250px;
-      background-position: center;
+      background-position: 55% -300px;
     }
   
     .hero .container { grid-template-columns: 1fr 0.9fr; }
@@ -1279,7 +1284,7 @@
     }
     .navbar-list { 
       position: absolute;
-      left: 45%;
+      left: 40%;
       display: flex;
      }
 
