@@ -346,7 +346,7 @@
                 </figure>
 
                 <div class="card-content">
-                  <h3 class="h3 card-title">Nitro turbo</h3>
+                  <h3 class="h3 card-title ">Nitro turbo</h3>
                 </div>
 
               </div>
@@ -364,10 +364,6 @@
   Contact form
 -->
 
-<section class="section contactForm" aria-labelledby="contactForm-label" id="contactForm">
-
-</section>
-
 
   <!-- 
     - #FOOTER
@@ -376,33 +372,38 @@
   <footer class="footer" id="footer">
 
     <div class="footer-top section">
-      <div class="container">
+       <!-- <div class="container"> -->
 
-        <div class="footer-brand">
+      <div class="parent-grid">
 
-          <p class="footer-text">
-            Rerum necessitatibus saepe eveniet aut et voluptates repudiandae sint et molestiae non recusandae.
-          </p>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <img src="./assets/images/facebook.svg" alt="facebook">
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <img src="./assets/images/instagram.svg" alt="instagram">
-              </a>
-            </li>
-
-          </ul>
-
+        <div class="left-container">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="fullname">Nome Completo:</label>
+              <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telemóvel:</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="subject">Assunto:</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
         </div>
 
-        <ul class="footer-list">
+        <div class="right-container">
+           <ul class="footer-list">
 
           <li>
             <p class="h3">Opening Hours</p>
@@ -438,7 +439,7 @@
             <a href="tel:+01234567890" class="footer-link">
               <span class="material-symbols-rounded">call</span>
 
-              <span class="span">+01 2 3456 7890</span>
+              <span class="span">+351 912345678</span>
             </a>
           </li>
 
@@ -459,9 +460,10 @@
           </li>
 
         </ul>
+        </div>
 
-      </div>
 
+      
 
     </div>
 
