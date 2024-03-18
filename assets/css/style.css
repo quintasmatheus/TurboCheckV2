@@ -741,8 +741,8 @@
      */
   
      .hero { 
-      --section-padding: 120px; 
-      background-position: 55% -300px;
+      --section-padding: 220px; 
+      background-position: 55% -400px;
     }
     
     .hero .container { max-width: unset; }
@@ -1051,9 +1051,9 @@
     .logo img { 
       position: absolute;
       top: 50%;
-      left: 20%;
+      left: 15%;
       transform: translate(-50%, -50%);
-      width: 200px; 
+      width: 250px; 
     }
   
   
@@ -1107,11 +1107,9 @@
     .hero {
       text-align: left;
       padding-block-end: 80px;
-      background-position: 55% -520px;
-      --section-padding: 100px;
+      --section-padding: 220px; 
+      background-position: 55% -300px;
     }
-
-   
   
     .hero .container {
       max-width: 960px;
