@@ -1,10 +1,6 @@
 
 :root {
 
-    /**
-     * colors
-     */
-  
     --international-orange-engineering: hsl(0, 18%, 33%);
     --cadet-blue-creyola: hsl(222, 14%, 69%);
     --oxford-blue-1: hsl(222, 29%, 61%);
@@ -18,9 +14,6 @@
     --silver: rgb(243, 244, 246);
     --redTurbo: rgb(168, 79, 79);
   
-    /**
-     * typography
-     */
   
     --ff-chakra-petch: 'Chakra Petch', sans-serif;
     --ff-mulish: 'Mulish', sans-serif;
@@ -36,37 +29,20 @@
     --fw-600: 600;
     --fw-700: 700;
   
-    /**
-     * spacing
-     */
-  
     --section-padding: 60px;
   
-    /**
-     * box shadow
-     */
   
     --shadow: 0px 0px 100px 0px hsl(216, 9%, 90%);
   
-    /**
-     * border radius
-     */
   
     --radius-pill: 100px;
     --radius-circle: 50%;
   
-    /**
-     * transition
-     */
   
     --transition: 0.25s ease;
     --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
   
   }
-  
-  
-  
-  
   
   /*-----------------------------------*\
     #RESET
@@ -252,8 +228,9 @@
     align-items: center;
     gap: 30px;
     overflow-x: auto;
-    scroll-snap-type: inline mandatory;
+    scroll-snap-type:mandatory;
     padding-block-end: 20px;
+    -webkit-overflow-scrolling: touch;
   }
   
   .scrollbar-item {
@@ -477,10 +454,6 @@
     transition: var(--transition);
   }
   
-  .about-item:hover {
-    background-color: var(--redTurbo);
-    transform: translateY(-8px);
-  }
   
   .about-item .strong {
     display: block;
@@ -499,7 +472,7 @@
   .work-card { position: relative; }
   
   .work-card .card-content {
-    background-color: var(--oxford-blue-2);
+    background-color: var(--redTurbo);
     padding: 30px 10px;
     margin-block-start: -60px;
     margin-inline: auto;
@@ -513,11 +486,7 @@
     color: var(--silver);
   }
   
-  .card-content:hover {
-    background-color:  var(--redTurbo);
-    transform: translateY(-8px);
-  }
-  
+
   .work-card .card-subtitle {
     font-family: var(--ff-chakra-petch);
     text-transform: uppercase;
@@ -1185,7 +1154,7 @@
      * WORK
      */
   
-    .has-scrollbar { overflow-x: visible; }
+
   
     .scrollbar-item { min-width: calc(33.33% - 20px); }
   
