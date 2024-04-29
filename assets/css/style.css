@@ -356,6 +356,7 @@
     overflow: hidden;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
   
   .hero .container {
@@ -736,6 +737,7 @@
       background-position: -300px;
       background-size: cover;
       background-attachment: fixed;
+      background-position: center;
     }
 
     .about .section-subtitle {
@@ -905,6 +907,7 @@
        background-position: -200px;
        background-size: cover;
        background-attachment: fixed;
+       background-position: center;
      }
 
      .about .section-subtitle {
@@ -1121,6 +1124,7 @@
       background-position: 55% -0px;
       background-size: cover;
       background-attachment: fixed;
+      background-position: center;
     }
   
     .about .container {
@@ -1145,6 +1149,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: right;
+      background-position: center;
       z-index: -1;
     }
   
