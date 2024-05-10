@@ -698,9 +698,12 @@
      .hero { 
       --section-padding: 220px; 
       background-position: 55% -220px;
+      background-image: url('../images/hero-background-unsplash.jpg');
     }
     
-    .hero .container { max-width: unset; }
+    .hero .container { 
+      max-width: unset; 
+    }
   
     .hero-content {
       max-width: 520px;
@@ -1246,6 +1249,7 @@
     .hero { 
       padding-block: 140px;
       background-position: 55% -300px;
+      background-image: url('../images/hero-background-unsplash.jpg');
     }
   
     .hero .container { grid-template-columns: 1fr 0.9fr; }
