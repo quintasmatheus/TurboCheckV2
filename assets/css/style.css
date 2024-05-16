@@ -694,11 +694,11 @@
     /**
      * HERO
      */
-  
+      /** HERE **/
      .hero { 
       --section-padding: 220px; 
       background-position: 55% -220px;
-      background-image: url('../images/hero-background-unsplash.jpg');
+      background-image: url('../images/car_road_1.jpeg');
     }
     
     .hero .container { 
@@ -865,9 +865,11 @@
      * HERO
      */
   
+      /** HERE **/
     .hero { 
       --section-padding: 220px; 
       background-position: 55% -300px;
+      background-image: url('../images/car_road_1.jpeg');
     }
 
   
@@ -970,6 +972,8 @@
   /**
    * responsive for large than 992px screen
    */
+
+    
   
   @media (min-width: 992px) {
   
@@ -1062,11 +1066,14 @@
     /**
      * HERO
      */
+
+     /** HERE **/
   
     .hero {
       text-align: left;
       --section-padding: 220px; 
       background-position: 55% -250px;
+      background-image: url('../images/car_road_1.jpeg');
     }
   
     .hero .container {
@@ -1198,6 +1205,8 @@
     /**
      * REUSED STYLE
      */
+
+    
   
     .container,
     .hero .container { min-width: 1140px; }
@@ -1244,12 +1253,13 @@
      * HERO
      */
   
-    
+      /** MAYBE NOT HERE **/
 
     .hero { 
       padding-block: 140px;
       background-position: 55% -300px;
       background-image: url('../images/hero-background-unsplash.jpg');
+      /** background-image: url('../images/car_road_1.jpeg'); **/
     }
   
     .hero .container { grid-template-columns: 1fr 0.9fr; }
@@ -1432,6 +1442,7 @@
     .hero { 
       padding-block: 550px;
       background-position: center ;
+      background-image: url('../images/hero-background-unsplash.jpg');
     }
 
     .hero .section-text { padding-inline-end: 150px; }
