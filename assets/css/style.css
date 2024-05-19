@@ -698,7 +698,7 @@
      .hero { 
       --section-padding: 220px; 
       background-position: 55% -220px;
-      background-image: url('../images/car_road_2.jpeg');
+      background-image: url('../images/image-800x1200.jpg');
     }
     
     .hero .container { 
@@ -869,7 +869,7 @@
     .hero { 
       --section-padding: 220px; 
       background-position: 55% -300px;
-      background-image: url('../images/car_road_2.jpeg');
+      background-image: url('../images/image-800x1200.jpg');
     }
 
   
@@ -1073,7 +1073,7 @@
       text-align: left;
       --section-padding: 220px; 
       background-position: 55% -250px;
-      background-image: url('../images/car_road_2.jpeg');
+      background-image: url('../images/image-800x1200.jpg');
     }
   
     .hero .container {
