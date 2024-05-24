@@ -698,7 +698,8 @@
      .hero { 
       --section-padding: 220px; 
       background-position: center;
-      background-size: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: center center;
       background-image: url('../images/image-800x1200.jpg');
     }
     
@@ -869,8 +870,8 @@
       /** HERE **/
     .hero { 
       --section-padding: 220px; 
-      background-position: center;
-      background-size: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: center center;
       background-image: url('../images/image-800x1200.jpg');
     }
 
@@ -1074,8 +1075,8 @@
     .hero {
       text-align: left;
       --section-padding: 220px; 
-      background-position: center;
-      background-size: 50%;
+      background-repeat: no-repeat;
+      background-size: center center;
       background-image: url('../images/image-800x1200.jpg');
     }
   
