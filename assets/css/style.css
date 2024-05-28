@@ -697,10 +697,8 @@
       /** HERE **/
      .hero { 
       --section-padding: 220px; 
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: center center;
-      background-image: url('../images/image-800x1200.jpg');
+      background: no-repeat center/110% url('../images/image-800x1200.jpg');
+      
     }
     
     .hero .container { 
@@ -870,9 +868,7 @@
       /** HERE **/
     .hero { 
       --section-padding: 220px; 
-      background-repeat: no-repeat;
-      background-size: center center;
-      background-image: url('../images/image-800x1200.jpg');
+       background: no-repeat center/110% url('../images/image-800x1200.jpg');
     }
 
   
@@ -1075,9 +1071,7 @@
     .hero {
       text-align: left;
       --section-padding: 220px; 
-      background-repeat: no-repeat;
-      background-size: center center;
-      background-image: url('../images/image-800x1200.jpg');
+      background: no-repeat center/110% url('../images/image-800x1200.jpg');
     }
   
     .hero .container {
