@@ -697,6 +697,7 @@
       /** HERE **/
      .hero { 
       --section-padding: 220px; 
+      background-attachment: fixed;
       background: no-repeat center/110% url('../images/image-800x1200.jpg');
       
     }
@@ -868,6 +869,7 @@
       /** HERE **/
     .hero { 
       --section-padding: 220px; 
+      background-attachment: fixed;
        background: no-repeat center/110% url('../images/image-800x1200.jpg');
     }
 
@@ -1071,6 +1073,7 @@
     .hero {
       text-align: left;
       --section-padding: 220px; 
+      background-attachment: fixed;
       background: no-repeat center/110% url('../images/image-800x1200.jpg');
     }
   
@@ -1256,6 +1259,7 @@
     .hero { 
       padding-block: 140px;
       background-position: 55% -300px;
+      background-attachment: fixed;
       background-image: url('../images/hero-background-unsplash.jpg');
       /** background-image: url('../images/car_road_1.jpeg'); **/
     }
