@@ -738,10 +738,8 @@
     .about .section-title { 
       text-align: center;
       --section-padding: 120px; 
-      background-position: -300px;
-      background-size: cover;
+      background: no-repeat center/110%;
       background-attachment: fixed;
-      background-position: center;
     }
 
     .about .section-subtitle {
@@ -910,10 +908,8 @@
      .about .section-title { 
        text-align: center;
        --section-padding: 120px; 
-       background-position: -200px;
-       background-size: cover;
+       background: no-repeat center/110%;
        background-attachment: fixed;
-       background-position: center;
      }
 
      .about .section-subtitle {
