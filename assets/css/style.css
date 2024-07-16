@@ -738,7 +738,7 @@
     .about .section-title { 
       text-align: center;
       --section-padding: 120px; 
-      background: no-repeat center/300%;
+      background: no-repeat top/300%;
       background-attachment: fixed;
     }
 
@@ -908,7 +908,7 @@
      .about .section-title { 
        text-align: center;
        --section-padding: 120px; 
-       background: no-repeat center/300%;
+       background: no-repeat top/300%;
        background-attachment: fixed;
      }
 
